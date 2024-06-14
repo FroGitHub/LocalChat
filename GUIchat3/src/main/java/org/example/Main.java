@@ -6,9 +6,8 @@ public class Main {
 
     public static void main(String[] args){
 
-        chatGUI chatGUI = new chatGUI(new JButton("Send"));
-        chatGUI.createTextFields();
-        chatGUI.addElements();
+        JButton button = new JButton("Send");
+        ChatGUI chatGUI = new ChatGUI(button);
         chatGUI.startClient();
 
 
